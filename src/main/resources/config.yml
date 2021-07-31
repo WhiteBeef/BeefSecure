@@ -1,0 +1,105 @@
+# Создатель плагина: _WhiteBeef_
+# ВК: https://vk.com/wbeef
+Messages:
+  PREFIX: '&7[&dBeef&fSecure&7] '
+  NOT_ENOUGH_ARGUMENTS: '#f02213Недостаточно аргументов!'
+  RELOAD_SUCCESSFUL_MESSAGE: '&aУспешная перезагрузка!'
+  RELOAD_UNSUCCESSFUL_MESSAGE: '&cВо время перезагрузки что-то пошло не так'
+ActionBarMessage:
+  Sound: BLOCK_LAVA_EXTINGUISH
+  Enable: true
+  Message: '#00c6cc Вы не можете поставить тут это!'
+Blocks:
+  SAND:
+    min: 0
+    max: 90
+  GRAVEL:
+    min: 0
+    max: 90
+  RED_SAND:
+    min: 0
+    max: 90
+  ORANGE_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  WHITE_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  MAGENTA_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  LIGHT_BLUE_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  YELLOW_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  LIME_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  PINK_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  GRAY_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  LIGHT_GRAY_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  CYAN_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  PURPLE_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  BLUE_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  BROWN_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  GREEN_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  RED_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  BLACK_CONCRETE_POWDER:
+    min: 0
+    max: 90
+  LAVA_BUCKET:
+    min: 0
+    max: 90
+  FURNACE:
+    min: 55
+    max: 110
+  DROPPER:
+    min: 55
+    max: 110
+  BREWING_STAND:
+    min: 55
+    max: 110
+  TRAPPED_CHEST:
+    min: 55
+    max: 110
+  DISPENSER:
+    min: 55
+    max: 110
+  SMOKER:
+    min: 55
+    max: 110
+  BARREL:
+    min: 55
+    max: 110
+  ITEM_FRAME:
+    min: 55
+    max: 110
+  CHEST:
+    min: 55
+    max: 110
+  BLAST_FURNACE:
+    min: 55
+    max: 110
+BlockedVehicles:
+  - MINECART_CHEST
+  - MINECART_FURNACE

@@ -1,0 +1,15 @@
+name: BeefSecure
+version: ${project.version}
+main: ru.whitebeef.beefsecure.BeefSecure
+api-version: 1.16
+authors: [_WhiteBeef_]
+website: https://vk.com/wbeef
+commands:
+  secure:
+    usage: /<command>
+    description: Основная команда плагина
+    permission: beefsecure.admin
+permissions:
+  secure.admin:
+    description: Админский доступ к безопасности
+    default: op
